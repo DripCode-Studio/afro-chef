@@ -1,5 +1,10 @@
 {
-  "name": "my-v0-project",
+  "name": "afrochef",
+  "description": "Explore authentic recipes from across the continent. Customize ingredients, save your favorites, and create new dishes with AI assistance.",
+  "author": {
+    "name": "DripCode Studio",
+    "url": "https://dripcodestudio.com/"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
