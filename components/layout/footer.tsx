@@ -95,20 +95,17 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-cream/20 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-cream/60 text-sm">
-            &copy; {new Date().getFullYear()} AfroChef. Made with love for
-            African cuisine.
-          </p>
-          <div className="flex items-center justify-center gap-2 flex-wrap">
-            <span className="text-charcoal/70 text-xs font-medium">
+            &copy; {new Date().getFullYear()}{" "}
+            <span className="text-cream/60 text-sm font-medium">
               AfroChef is designed, built, and backed by
             </span>
             <Tag href="https://dripcodestudio.com/" variant="primary">
               DripCode Studio™
             </Tag>
-          </div>
+          </p>
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/DripCode-Studio/afro-chef"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cream/60 hover:text-orange transition-colors"
@@ -117,7 +114,7 @@ export function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/dripcodestudio"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cream/60 hover:text-orange transition-colors"
